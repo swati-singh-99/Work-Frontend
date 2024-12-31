@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+}
+
+.icon {
+    color:  #a378ef;;
+    font-size: 30px;
+  }
+  
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #673ab7;
+}
+.form-control {
+    margin: 15px 0;
+    width: 100%;
+}
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.form-control input:focus {
+    border-color: #673ab7;
+    outline: none;
+    box-shadow: 0 0 5px rgba(103, 58, 183, 0.5);
+}
+.login-btn {
+    background: #673ab7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+.login-btn:hover {
+    background: #492a88;
+}
+.signup-link {
+    font-size: 16px;
+    color: #673ab7;
+    text-decoration: none;
+}
+.signup-link:hover {
+    text-decoration: underline;
+    color: #512a94;
+}
+
+.ext-link{
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.error-message{
+  color: red;
+  font-size: 14px;
+  text-align: left;
+}
+
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
